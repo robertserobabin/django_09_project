@@ -1,0 +1,14 @@
+- model: course.paying
+  fields:
+    user: 1
+    date_to_pay: '2022-12-31'
+    course: 1
+    sum: 100
+    method_to_pay: Card
+- model: course.paying
+  fields:
+    user: 1
+    date_to_pay: '2023-12-31'
+    course: 1
+    sum: 150
+    method_to_pay: Cash
